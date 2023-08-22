@@ -16,7 +16,6 @@
 		<link rel="stylesheet"
 			href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" />
 	</noscript>
-	<script src="https://kit.fontawesome.com/3659290e72.js" crossorigin="anonymous"></script>
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/aos.css?ver=1.2.0" rel="stylesheet">
 	<link href="css/main.css?ver=1.2.0" rel="stylesheet">
@@ -30,7 +29,7 @@
 	</noscript>
 </head>
 
-<body id="top">
+<body id="top" onload="current_age()">
 	<div class="page-content">
 		<div class="container">
 			<div class="cover shadow-lg bg-white">
@@ -62,7 +61,7 @@
 									<div class="pb-1">Age</div>
 								</div>
 								<div class="col-sm-8">
-									<div class="pb-1 text-secondary">28</div>
+									<div class="pb-1 text-secondary" id="age"></div>
 								</div>
 								<div class="col-sm-4">
 									<div class="pb-1">Email</div>
@@ -80,7 +79,9 @@
 									<div class="pb-1">LinkedIn</div>
 								</div>
 								<div class="col-sm-8">
-									<div class="pb-1 text-secondary">https://www.linkedin.com/in/cheeyuen-teng/</div>
+									<div class="pb-1 text-secondary"><a
+											href="https://www.linkedin.com/in/cheeyuen-teng/"
+											target="_blank">https://www.linkedin.com/in/cheeyuen-teng/</a></div>
 								</div>
 								<div class="col-sm-4">
 									<div class="pb-1">Address</div>
