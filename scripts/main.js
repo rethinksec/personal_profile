@@ -9,6 +9,6 @@ AOS.init({
 function current_age() {
 	today = new Date();
 	this_year = today.getFullYear();
-	age = this_year - 1996 + 1;
+	age = this_year - 1996;
 	document.getElementById("age").innerHTML = age;
 }
